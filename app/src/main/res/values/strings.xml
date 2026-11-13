@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">סדר יום</string>
+
+    <!-- Block types -->
+    <string name="type_sleep">שינה</string>
+    <string name="type_meal">ארוחה</string>
+    <string name="type_work">עבודה</string>
+    <string name="type_study">לימוד</string>
+    <string name="type_exercise">פעילות גופנית</string>
+    <string name="type_free">זמן פנוי</string>
+    <string name="type_other">אחר</string>
+
+    <!-- Durations -->
+    <string name="duration_minutes_only">%1$d דק׳</string>
+    <string name="duration_hours_only">%1$d שע׳</string>
+    <string name="duration_hours_minutes">%1$d שע׳ ו-%2$d דק׳</string>
+
+    <!-- Validation -->
+    <string name="error_duration_short">המשך חייב להיות לפחות דקה אחת</string>
+    <string name="error_duration_long">המשך לא יכול לעלות על 24 שעות</string>
+    <string name="error_title_long">השם ארוך מדי (עד %1$d תווים)</string>
+    <string name="error_overlap">הבלוק חופף לבלוק \"%1$s\"</string>
+
+    <!-- Block editor -->
+    <string name="block_start_value">התחלה %1$s</string>
+    <string name="block_duration_value">משך %1$s</string>
+    <string name="block_edit_time">שינוי שעת התחלה</string>
+    <string name="block_edit_duration">שינוי משך</string>
+    <string name="block_delete_named">מחיקת הבלוק %1$s</string>
+    <string name="block_edit_details_named">עריכת סוג ושם של הבלוק %1$s</string>
+    <string name="block_reminder_on">תזכורת פעילה</string>
+    <string name="block_reminder_off">תזכורת כבויה</string>
+    <string name="block_overnight">חוצה חצות</string>
+    <string name="sheet_time_title">שעת התחלה</string>
+    <string name="sheet_duration_title">משך הבלוק</string>
+    <string name="sheet_details_title">סוג ושם</string>
+    <string name="sheet_title_hint">שם (לא חובה)</string>
+    <string name="sheet_confirm">אישור</string>
+    <string name="sheet_cancel">ביטול</string>
+
+    <!-- Template screen -->
+    <string name="template_title">תבנית יומית</string>
+    <string name="template_empty">התבנית ריקה. הוסיפו בלוק כדי להתחיל.</string>
+    <string name="template_add_block">הוספת בלוק</string>
+    <string name="template_no_room">אין מקום פנוי להוספת בלוק</string>
+    <!-- Navigation -->
+    <string name="nav_today">היום</string>
+    <string name="nav_template">תבנית</string>
+    <string name="nav_settings">הגדרות</string>
+    <string name="ok">הבנתי</string>
+    <string name="back">חזרה</string>
+
+    <!-- Today screen -->
+    <string name="today_now">עכשיו</string>
+    <string name="today_next">הבא</string>
+    <string name="today_now_value">%1$s עד %2$s</string>
+    <string name="today_next_value">%1$s בשעה %2$s</string>
+    <string name="today_nothing_now">אין פעילות כרגע</string>
+    <string name="today_nothing_next">אין פעילויות נוספות היום</string>
+    <string name="today_empty">אין בלוקים ביום זה</string>
+    <string name="today_overridden">יום זה שונה מהתבנית</string>
+    <string name="today_prev_day">היום הקודם</string>
+    <string name="today_next_day">היום הבא</string>
+    <string name="today_go_to_today">חזרה להיום</string>
+    <string name="today_edit_day">עריכת היום</string>
+    <string name="segment_from_previous">ממשיך מאתמול</string>
+    <string name="segment_to_next">ממשיך למחר</string>
+    <string name="segment_description">%1$s, %2$s, משך %3$s</string>
+
+    <!-- Day edit screen -->
+    <string name="dayedit_title">עריכת יום</string>
+    <string name="dayedit_save">שמירה</string>
+    <string name="dayedit_reset">איפוס לתבנית</string>
+    <!-- Notifications -->
+    <string name="notification_channel_sound">תזכורות עם צליל</string>
+    <string name="notification_channel_vibrate">תזכורות עם רטט</string>
+    <string name="notification_text_now">מתחיל עכשיו (%1$s)</string>
+    <string name="notification_text_lead">מתחיל בעוד %1$d דק׳ (%2$s)</string>
+
+    <!-- Settings -->
+    <string name="settings_title">הגדרות</string>
+    <string name="settings_lead_time">זמן התראה לפני תחילת בלוק</string>
+    <string name="settings_lead_at_start">בזמן ההתחלה</string>
+    <string name="settings_lead_minutes">%1$d דק׳ לפני</string>
+    <string name="settings_notify_mode">סוג התראה</string>
+    <string name="settings_mode_sound">צליל</string>
+    <string name="settings_mode_vibrate">רטט</string>
+    <string name="settings_backup">גיבוי ושחזור</string>
+    <string name="settings_backup_hint">הקובץ כולל את התבנית ואת כל השינויים לימים מסוימים. ההגדרות אינן נכללות.</string>
+    <string name="settings_export">ייצוא לקובץ</string>
+    <string name="settings_import">ייבוא מקובץ</string>
+    <string name="export_done">הקובץ נשמר</string>
+    <string name="export_failed">שמירת הקובץ נכשלה</string>
+    <string name="import_done">הנתונים יובאו</string>
+    <string name="import_preview_title">תצוגה מקדימה של הייבוא</string>
+    <string name="import_preview_template">בלוקים בתבנית: %1$d</string>
+    <string name="import_preview_overrides">ימים ששונו: %1$d</string>
+    <string name="import_preview_range">טווח התאריכים: %1$s עד %2$s</string>
+    <string name="import_preview_warning">הייבוא יחליף את כל התבנית ואת כל השינויים הקיימים.</string>
+    <string name="import_confirm">ייבוא והחלפה</string>
+    <string name="import_rejected_title">אי אפשר לייבא את הקובץ</string>
+    <string name="import_error_read">לא ניתן לקרוא את הקובץ או שהוא גדול מדי.</string>
+    <string name="import_error_json">הקובץ אינו קובץ גיבוי תקין.</string>
+    <string name="import_error_version">גרסת הקובץ (%1$d) אינה נתמכת.</string>
+    <string name="import_error_value">ערך לא תקין בשדה %1$s.</string>
+    <string name="import_error_too_many">יותר מדי פריטים ב-%1$s.</string>
+    <string name="import_error_blocks">בלוקים לא תקינים ב-%1$s:\n%2$s</string>
+</resources>
